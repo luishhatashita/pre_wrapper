@@ -1,0 +1,2 @@
+# Ignore all files .pyc in src folder and its subfolders
+src/**/*.pyc
