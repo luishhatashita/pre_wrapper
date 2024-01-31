@@ -29,6 +29,7 @@ if __name__ == '__main__':
         name = args.create[0]
         path = args.create[1]
         case.create_folder_structure(name, path)
+        case.create_base_inputfile()
     elif args.utils:
         print('utils')
     elif args.grid:
